@@ -1,10 +1,10 @@
-# 🧮 Build Your Own Interpreter (Math Expression Evaluator)
+# Build Your Own Interpreter (Math Expression Evaluator)
 
 This project demonstrates a minimal interpreter built in Python. It tokenizes, parses, and evaluates arithmetic expressions using a recursive structure — laying the groundwork for domain-specific languages used in simulation, modeling, and health informatics.
 
 ---
 
-## 📌 What It Can Do
+## What It Can Do
 
 - Parses expressions like:
   ```
@@ -17,7 +17,7 @@ This project demonstrates a minimal interpreter built in Python. It tokenizes, p
 
 ---
 
-## 🧠 Healthcare System Use Case
+## Healthcare System Use Case
 
 In simulation and EHR systems, clinicians and modelers often define dynamic expressions like:
 
@@ -27,13 +27,13 @@ perfusion = pressure * flowrate
 ```
 
 This interpreter is the foundation for:
-- 🧠 FEM scripting interfaces
-- 💻 Medical decision logic engines
-- 📋 Expression evaluators in digital twin dashboards
+- FEM scripting interfaces
+- Medical decision logic engines
+- Expression evaluators in digital twin dashboards
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 cd src/
@@ -48,7 +48,7 @@ Then try:
 
 ---
 
-## 🗂️ Structure
+## Structure
 
 - `main.py` – Recursive interpreter (tokenizer, parser, evaluator)
 - `assets/` – Diagram placeholder (AST or flowchart)
